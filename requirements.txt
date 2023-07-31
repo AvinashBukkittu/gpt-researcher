@@ -28,3 +28,4 @@ mypy==1.4.1
 types-requests==2.31.0.2
 types-beautifulsoup4==4.12.0.5
 pylint==2.17.5
+flask-sse==1.0.0

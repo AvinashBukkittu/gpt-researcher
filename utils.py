@@ -33,7 +33,8 @@ MAX_WEBPAGE_CONTENT_LENGTH_IN_CHARACTERS = NUM_OF_CHARACTERS_IN_A_TOKEN * MAX_WE
 ENDPOINT = "https://api.bing.microsoft.com/v7.0/search"
 
 def query_bing(query: str, k=10) -> List[str]:
-    """
+    r"""Query Bing Search Engine.
+    
     Queries Bing Search engine using the Bing Websearch API and returns the results.
     More information on this can be found at
     https://www.microsoft.com/en-us/bing/apis/bing-web-search-api
