@@ -64,7 +64,21 @@ Following environment variables need to be set up before running the program
 # How to run the tool?
 
 - To run the web-based tool:
-    - Ensure that redis server is running locally. Then start the backend server using the command `flask run`. This command should start the server on `localhost:5000`. Enter the query in the input field and click on `Summarize the results from the web`. You should see the status updates coming in from the backend. Once the processing is complete, you will see the summary results.
+    - Ensure that redis server is running locally. Then start the backend server using the command `flask run`. This command should start the server on `localhost:5000`. Enter the query in the input field and click on `Summarize the results from the web`. You should see the status updates coming in from the backend. Once the processing is complete, you will see the summary results. Here is the demo in action
+
+
+
+
+
+https://github.com/AvinashBukkittu/gpt-researcher/assets/4490183/608ccabb-1810-4149-bd7e-234c1911fad7
+
+
+
+
+
+
+
+
 - To run CLI tool:
     - Run the command `python main.py -q "<enter-the-query-here>"`. This should call the backend service. On the terminal, you will see the logs showing the different processing stages. At the end, the tool will print the summary on the terminal.
 
